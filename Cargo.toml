@@ -1,0 +1,21 @@
+[package]
+name = "portfolio-exposure-analyzer"
+version = "0.1.0"
+authors = ["Romi Agar <romi@agar.ee>"]
+description = "Visualize the portfolio exposure by different categories"
+repository = "https://github.com/r0mi/portfolio-exposure-analyzer"
+license = "Unlicense OR MIT"
+readme = "README.md"
+keywords = ["investment", "portfolio", "exposure", "analyzer"]
+categories = ["command-line-utilities"]
+edition = "2021"
+
+[dependencies]
+csv = "1.1"
+tracing = { version = "0.1", features = ["log"] }
+tracing-subscriber = { version = "0.3", features = ["registry", "env-filter"] }
+once_cell = "1"
+clap = { version = "4", features = ["derive", "env"] }
+plotly = { version = "0.8.3", features = ["kaleido"] }
+serde = { version = "1", features = ["derive"] }
+strum = { version = "0.24", features = ["derive"] }

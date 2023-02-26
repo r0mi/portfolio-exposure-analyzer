@@ -1,0 +1,24 @@
+ISIN,Name,TER,Holding,HoldingWeight,Sector,SectorWeight,Country,CountryWeight,Region,RegionWeight
+IE0031442068,iShares Core S&P 500 UCITS ETF USD (Dist),0.07,AAPL,6.4,Technology,23.87,United States,96.91,Americas,97.02
+,,,MSFT,5.42,Health Care,14.68,Ireland,1.68,Europe,2.98
+,,,AMZN,2.66,Financial Services,13.94,United Kingdom,0.73,,
+,,,GOOGL,1.74,Consumer Cyclical,10.32,Switzerland,0.44,,
+,,,BRK.B,1.63,Industrials,8.7,Netherlands,0.13,,
+,,,GOOG,1.56,Communication Services,7.87,Bermuda,0.11,,
+,,,NVDA,1.49,Consumer Staples,7.05,,,,
+,,,TSLA,1.4,Energy,5.13,,,,
+,,,XOM,1.4,Utilities,2.93,,,,
+,,,UNH,1.33,,,,,,
+LU0908500753,Lyxor Core STOXX Europe 600 (DR) UCITS ETF Acc,0.07,NESN,3.03,Financial Services,17.11,United Kingdom,24.60,Europe,97.45
+,,,ASML,2.52,Health Care,14.55,France,16.07,Americas,1.57
+,,,NOVO,2.11,Industrials,14.38,Switzerland,15.73,,
+,,,MC,2.1,Consumer Staples,11.05,Germany,11.78,,
+,,,ROG,2.05,Consumer Cyclical,10.41,Netherlands,7.64,,
+,,,SHEL,1.93,Basic Materials,8.54,Sweden,4.73,,
+,,,AZN,1.89,Technology,7.02,Denmark,4.46,,
+,,,NOVN,1.86,Energy,6.14,Spain,3.70,,
+,,,TTE,1.54,Communication Services,4.3,Italy,3.01,,
+,,,LIN,1.49,,,Finland,2.16,,
+EE3100127242,EfTEN Real Estate Fund III AS,0,EFT1T,100,Real Estate,100,Lithuania,62.40,Europe,100
+,,,,,,,Estonia,22.50,,
+,,,,,,,Latvia,15.10,,

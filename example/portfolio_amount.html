@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>
+        <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+        <div id="plotly-html-element" class="plotly-graph-div" style="height:100%; width:100%;"></div>
+
+        <script type="module">
+            const graph_div = document.getElementById("plotly-html-element");
+            await Plotly.newPlot(graph_div, {
+  "data": [
+    {
+      "type": "bar",
+      "x": [
+        "EFT1T",
+        "AAPL",
+        "MSFT",
+        "AMZN",
+        "NESN",
+        "ASML",
+        "GOOGL",
+        "NOVO",
+        "MC",
+        "BRK.B",
+        "ROG",
+        "GOOG",
+        "SHEL",
+        "NVDA",
+        "AZN",
+        "NOVN",
+        "XOM",
+        "TSLA",
+        "UNH",
+        "TTE",
+        "LIN",
+        "Unknown"
+      ],
+      "y": [
+        9.183674,
+        3.2653065,
+        2.765306,
+        1.3571429,
+        1.2058163,
+        1.0028571,
+        0.8877551,
+        0.83969384,
+        0.8357142,
+        0.8316327,
+        0.8158162,
+        0.79591835,
+        0.76806116,
+        0.7602041,
+        0.7521428,
+        0.74020404,
+        0.7142857,
+        0.7142857,
+        0.67857146,
+        0.6128571,
+        0.59295917,
+        69.8798
+      ],
+      "name": "",
+      "text": [
+        "9.18%",
+        "3.27%",
+        "2.77%",
+        "1.36%",
+        "1.21%",
+        "1.00%",
+        "0.89%",
+        "0.84%",
+        "0.84%",
+        "0.83%",
+        "0.82%",
+        "0.80%",
+        "0.77%",
+        "0.76%",
+        "0.75%",
+        "0.74%",
+        "0.71%",
+        "0.71%",
+        "0.68%",
+        "0.61%",
+        "0.59%",
+        "69.88%"
+      ],
+      "hoverinfo": "text",
+      "hovertemplate": [
+        "4500 €",
+        "1600 €",
+        "1355 €",
+        "665 €",
+        "591 €",
+        "491 €",
+        "435 €",
+        "411 €",
+        "409 €",
+        "408 €",
+        "400 €",
+        "390 €",
+        "376 €",
+        "372 €",
+        "369 €",
+        "363 €",
+        "350 €",
+        "350 €",
+        "332 €",
+        "300 €",
+        "291 €",
+        "34241 €"
+      ],
+      "xaxis": "x1",
+      "yaxis": "y1",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Technology"
+      ],
+      "y": [
+        14.972244
+      ],
+      "name": "",
+      "text": "14.97%",
+      "hovertext": "7336 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Financial Services"
+      ],
+      "y": [
+        13.921327
+      ],
+      "name": "",
+      "text": "13.92%",
+      "hovertext": "6821 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Health Care"
+      ],
+      "y": [
+        13.280103
+      ],
+      "name": "",
+      "text": "13.28%",
+      "hovertext": "6507 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Industrials"
+      ],
+      "y": [
+        10.161428
+      ],
+      "name": "",
+      "text": "10.16%",
+      "hovertext": "4979 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Consumer Cyclical"
+      ],
+      "y": [
+        9.408061
+      ],
+      "name": "",
+      "text": "9.41%",
+      "hovertext": "4610 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Real Estate"
+      ],
+      "y": [
+        9.183674
+      ],
+      "name": "",
+      "text": "9.18%",
+      "hovertext": "4500 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Consumer Staples"
+      ],
+      "y": [
+        7.994388
+      ],
+      "name": "",
+      "text": "7.99%",
+      "hovertext": "3917 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Communication Services"
+      ],
+      "y": [
+        5.7265306
+      ],
+      "name": "",
+      "text": "5.73%",
+      "hovertext": "2806 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Energy"
+      ],
+      "y": [
+        5.0608163
+      ],
+      "name": "",
+      "text": "5.06%",
+      "hovertext": "2480 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Basic Materials"
+      ],
+      "y": [
+        3.3985713
+      ],
+      "name": "",
+      "text": "3.40%",
+      "hovertext": "1665 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Utilities"
+      ],
+      "y": [
+        1.494898
+      ],
+      "name": "",
+      "text": "1.49%",
+      "hovertext": "732 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Unknown"
+      ],
+      "y": [
+        5.3979645
+      ],
+      "name": "",
+      "text": "5.40%",
+      "hovertext": "2645 €",
+      "hoverinfo": "text",
+      "xaxis": "x2",
+      "yaxis": "y2",
+      "marker": {
+        "color": "gray"
+      }
+    },
+    {
+      "type": "bar",
+      "x": [
+        "United States"
+      ],
+      "y": [
+        49.44388
+      ],
+      "name": "",
+      "text": "49.44%",
+      "hovertext": "24228 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "United Kingdom"
+      ],
+      "y": [
+        10.162246
+      ],
+      "name": "",
+      "text": "10.16%",
+      "hovertext": "4980 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Switzerland"
+      ],
+      "y": [
+        6.484387
+      ],
+      "name": "",
+      "text": "6.48%",
+      "hovertext": "3177 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "France"
+      ],
+      "y": [
+        6.3952036
+      ],
+      "name": "",
+      "text": "6.40%",
+      "hovertext": "3134 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Lithuania"
+      ],
+      "y": [
+        5.7306128
+      ],
+      "name": "",
+      "text": "5.73%",
+      "hovertext": "2808 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Germany"
+      ],
+      "y": [
+        4.6879587
+      ],
+      "name": "",
+      "text": "4.69%",
+      "hovertext": "2297 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Netherlands"
+      ],
+      "y": [
+        3.1067345
+      ],
+      "name": "",
+      "text": "3.11%",
+      "hovertext": "1522 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Estonia"
+      ],
+      "y": [
+        2.0663266
+      ],
+      "name": "",
+      "text": "2.07%",
+      "hovertext": "1013 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Sweden"
+      ],
+      "y": [
+        1.8823469
+      ],
+      "name": "",
+      "text": "1.88%",
+      "hovertext": "922 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Denmark"
+      ],
+      "y": [
+        1.7748978
+      ],
+      "name": "",
+      "text": "1.77%",
+      "hovertext": "870 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Spain"
+      ],
+      "y": [
+        1.472449
+      ],
+      "name": "",
+      "text": "1.47%",
+      "hovertext": "722 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Latvia"
+      ],
+      "y": [
+        1.3867347
+      ],
+      "name": "",
+      "text": "1.39%",
+      "hovertext": "680 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Italy"
+      ],
+      "y": [
+        1.197857
+      ],
+      "name": "",
+      "text": "1.20%",
+      "hovertext": "587 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Finland"
+      ],
+      "y": [
+        0.85959184
+      ],
+      "name": "",
+      "text": "0.86%",
+      "hovertext": "421 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Ireland"
+      ],
+      "y": [
+        0.8571428
+      ],
+      "name": "",
+      "text": "0.86%",
+      "hovertext": "420 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Bermuda"
+      ],
+      "y": [
+        0.05612245
+      ],
+      "name": "",
+      "text": "0.06%",
+      "hovertext": "28 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Unknown"
+      ],
+      "y": [
+        2.4355164
+      ],
+      "name": "",
+      "text": "2.44%",
+      "hovertext": "1193 €",
+      "hoverinfo": "text",
+      "xaxis": "x3",
+      "yaxis": "y3",
+      "marker": {
+        "color": "gray"
+      }
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Americas"
+      ],
+      "y": [
+        50.124794
+      ],
+      "name": "",
+      "text": "50.12%",
+      "hovertext": "24561 €",
+      "hoverinfo": "text",
+      "xaxis": "x4",
+      "yaxis": "y4",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Europe"
+      ],
+      "y": [
+        49.4852
+      ],
+      "name": "",
+      "text": "49.49%",
+      "hovertext": "24248 €",
+      "hoverinfo": "text",
+      "xaxis": "x4",
+      "yaxis": "y4",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Unknown"
+      ],
+      "y": [
+        0.39000702
+      ],
+      "name": "",
+      "text": "0.39%",
+      "hovertext": "191 €",
+      "hoverinfo": "text",
+      "xaxis": "x4",
+      "yaxis": "y4",
+      "marker": {
+        "color": "gray"
+      }
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Developed"
+      ],
+      "y": [
+        88.3247
+      ],
+      "name": "",
+      "text": "88.32%",
+      "hovertext": "43279 €",
+      "hoverinfo": "text",
+      "xaxis": "x5",
+      "yaxis": "y5",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Frontier"
+      ],
+      "y": [
+        9.183674
+      ],
+      "name": "",
+      "text": "9.18%",
+      "hovertext": "4500 €",
+      "hoverinfo": "text",
+      "xaxis": "x5",
+      "yaxis": "y5",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Standalone"
+      ],
+      "y": [
+        0.05612245
+      ],
+      "name": "",
+      "text": "0.06%",
+      "hovertext": "28 €",
+      "hoverinfo": "text",
+      "xaxis": "x5",
+      "yaxis": "y5",
+      "marker": {}
+    },
+    {
+      "type": "bar",
+      "x": [
+        "Unknown"
+      ],
+      "y": [
+        2.435501
+      ],
+      "name": "",
+      "text": "2.44%",
+      "hovertext": "1193 €",
+      "hoverinfo": "text",
+      "xaxis": "x5",
+      "yaxis": "y5",
+      "marker": {
+        "color": "gray"
+      }
+    }
+  ],
+  "layout": {
+    "title": {
+      "text": "Asset exposure for portfolio_amount portfolio, TER 0.064%"
+    },
+    "showlegend": false,
+    "height": 1024,
+    "grid": {
+      "rows": 5,
+      "columns": 1,
+      "pattern": "independent"
+    },
+    "xaxis": {
+      "title": {
+        "text": "Holding"
+      }
+    },
+    "yaxis": {
+      "title": {
+        "text": "% Net assets"
+      }
+    },
+    "xaxis2": {
+      "title": {
+        "text": "Sector"
+      }
+    },
+    "yaxis2": {
+      "title": {
+        "text": "% Net assets"
+      }
+    },
+    "xaxis3": {
+      "title": {
+        "text": "Country"
+      }
+    },
+    "yaxis3": {
+      "title": {
+        "text": "% Net assets"
+      }
+    },
+    "xaxis4": {
+      "title": {
+        "text": "Region"
+      }
+    },
+    "yaxis4": {
+      "title": {
+        "text": "% Net assets"
+      }
+    },
+    "xaxis5": {
+      "title": {
+        "text": "Market"
+      }
+    },
+    "yaxis5": {
+      "title": {
+        "text": "% Net assets"
+      }
+    }
+  },
+  "config": {}
+});
+        </script>
+    </div>
+</body>
+
+</html>
